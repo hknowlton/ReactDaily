@@ -25,6 +25,7 @@ const NavLinks = () => (
 const App = () => (
   <Router>
     <div>
+      <h1>Dope</h1>
       <NavLinks />
       <Route exact path="/" component={Home} />
       {/* <Route path="/about" render={()=> <h1>Yoo from About</h1>}/> */}
