@@ -24,6 +24,14 @@ export default class DataMap extends React.Component {
     }, {});
     return objectAssign({}, statesDefaults, newData);
   }
+  individualStateLinks(){
+      document.getElementById("parent-list").addEventListener("click", function(g) {
+      if(g.target && g.target.nodeName == "PATH") {
+        // List item found!  Output the ID!
+        console.log("List item ", g.target.id.replace("post-", ""), " was clicked!");
+      }
+    });
+  }
   renderMap(){
     return new Datamap({
       element: ReactDOM.findDOMNode(this),

@@ -1,5 +1,5 @@
 const statesData = [
-  { 'regionName':'Alabama','code':'AL', 'value': 89 },
+  { 'regionName':'Alabama','code':'AL', 'value': 189 },
   { 'regionName':'Alaska','code':'AK', 'value': 112 },
   { 'regionName':'Arizona','code':'AZ', 'value': 101 },
   { 'regionName':'Arkansas','code':'AR', 'value': 123 },
